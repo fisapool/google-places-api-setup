@@ -12,6 +12,10 @@
     "test:watch": "jest --watch --testTimeout=10000",
     "prepublishOnly": "scripts/test-prepublish.sh"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fisapool/google-places-api-setup.git"
+  },
   "keywords": [
     "google",
     "places",
