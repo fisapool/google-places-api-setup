@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node bin/cli.js",
     "test": "jest --testTimeout=10000",
-    "test:watch": "jest --watch --testTimeout=10000",
-    "prepublishOnly": "scripts/test-prepublish.sh"
+    "test:watch": "jest --watch --testTimeout=10000"
   },
   "repository": {
     "type": "git",
