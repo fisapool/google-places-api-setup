@@ -3,7 +3,7 @@
 A Node.js CLI tool that automates the Google Places API project setup process.
 
 [![npm version](https://img.shields.io/npm/v/google-places-api-setup.svg)](https://www.npmjs.com/package/google-places-api-setup)
-[![License](https://img.shields.io/npm/l/google-places-api-setup.svg)](https://github.com/yourusername/google-places-api-setup/blob/master/LICENSE)
+[![License](https://img.shields.io/npm/l/google-places-api-setup.svg)](https://github.com/fisapool/google-places-api-setup/blob/main/LICENSE)
 
 ## Overview
 
