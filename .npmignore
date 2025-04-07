@@ -1,0 +1,46 @@
+# Development files
+.git/
+.github/
+.vscode/
+.idea/
+.DS_Store
+*.log
+*.swp
+*.swo
+node_modules/
+
+# Test files
+test/
+__tests__/
+coverage/
+.nyc_output/
+jest.config.js
+
+# CI/CD
+.travis.yml
+.circleci/
+.gitlab-ci.yml
+.github/workflows/
+
+# Documentation files that aren't needed in the package
+docs/
+CONTRIBUTING.md
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+ISSUE_TEMPLATE.md
+PULL_REQUEST_TEMPLATE.md
+
+# Config files
+.eslintrc*
+.prettierrc*
+.editorconfig
+tsconfig.json
+babel.config.js
+rollup.config.js
+webpack.config.js
+
+# Source maps
+*.map
+
+# Original Python script (if kept for reference)
+*.py 

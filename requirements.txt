@@ -1,0 +1,7 @@
+# Python dependencies for setup_google_places.py
+google-auth>=2.0.0
+google-auth-oauthlib>=0.4.0
+requests>=2.25.0
+
+# Note: The Google Cloud SDK must be installed separately.
+# Installation instructions: https://cloud.google.com/sdk/docs/install 

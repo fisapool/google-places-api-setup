@@ -1,0 +1,46 @@
+{
+  "name": "google-places-api-setup",
+  "version": "1.0.0",
+  "description": "A CLI tool to automate Google Places API project registration and setup",
+  "main": "src/index.js",
+  "bin": {
+    "places-setup": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "jest --testTimeout=10000",
+    "test:watch": "jest --watch --testTimeout=10000",
+    "prepublishOnly": "scripts/test-prepublish.sh"
+  },
+  "keywords": [
+    "google",
+    "places",
+    "api",
+    "setup",
+    "automation",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "commander": "^8.3.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1",
+    "open": "^8.4.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ]
+} 
